@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: o;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 300px;
+    width: 80%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    overflow-x: scroll;
+    
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.cards{
+    height: 90%;
+    width: 200px;
+    border: 2px solid black;
+    flex-shrink: 0;
+    border-radius: 30px;
+}
+.cards1{
+    background-image: url("https://occ-0-3779-3663.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABXMlNt8lRlEH5nkoYUHkzaYFsKJJvQq-3wQ4-DyYWQmKlxu9qrynyD5cNZEHPowiQL9IPEPbTSBM9B-id8nR8QPVfL1P_CQjPOqe5ZsDbekwH5AVJbhS3v4gSBXhZb4qdcE6.webp?r=e8a");
+}

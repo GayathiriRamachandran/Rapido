@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.711);
+}
+
+.container{
+    height: 500px;
+    width: 600px;
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    margin: 0px auto;
+}
+.box{
+    border-radius: 20px;
+}
+.box1
+{
+    background-image: url("./Teacher\ day.jpg");
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    width: 100%;
+    /* height: 200px; */
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box2
+{
+    background-image: url(./download.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.box3
+{
+    background-image: url(./Age\ Appropriate\ Thinking.jpg);
+    background-position: center;
+    
+}
+.box4
+{
+    background-image: url(./Education\ Images\,\ Stock\ Photos\ &\ Vectors….jpg);
+    background-position: center;
+    background-size: cover;
+    grid-column-start: 2;
+    grid-column-end:4 ;
+}

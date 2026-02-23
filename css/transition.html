@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            align-self: center;
+            justify-content: center;
+
+        }
+        .ring{
+            box-sizing: border-box;
+            height: 300px;
+            width: 300px;
+            border: 80px solid rgb(237, 10, 173);
+            border-radius: 50%;
+            border-top-color:rgb(230, 13, 13);
+            animation-name: rotation;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+        }
+        @keyframes rotation{
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="ring"></div>
+</body>
+</html>

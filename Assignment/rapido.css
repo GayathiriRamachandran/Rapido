@@ -1,0 +1,75 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+    padding: 0px 150px ;
+    height: 10vh;
+    /* background-color: aqua; */
+    display: flex; 
+    align-items: center;
+     justify-content: center; 
+     justify-content: space-between;
+}
+.header .anchor a{
+    text-decoration: none;
+    /* margin: 15px; */
+    font-size: 20px;
+  color: black;
+  margin: 0px 20px;
+}
+.header img{
+    height: 60%;
+}
+.header .anchor a:hover{
+    color: rgb(156, 155, 155);
+}
+
+.page1{
+    width: 100vw;
+    height: 70vh;
+    background-image: url("https://rapido-app-assets.storage.googleapis.com/66e1052cdca1e68cc52d070e8c9631aa_1736774712641.png");
+}
+.page1 h1{
+    padding: 0px 0px 40px;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.page1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+
+}
+.page1 input{
+    /* padding: 0px 0px 10px; */
+    font-size: 25px;
+    font-weight: 200;
+    width: 650px;
+     padding: 10px;
+     height:70px;
+     border-radius: 7px;
+}
+button{
+    padding: 0px 0px 24px;
+    font-size: 25px;
+    font-weight: 200;
+     width: 650px;
+     text-align: center;
+     padding: 10px;
+      height:70px;
+      border-radius: 10px;
+      background-color: rgb(215, 215, 21);
+}
+.page1 form .inputs{
+    display: flex;
+    flex-direction: column;
+    /* margin: 20px; */
+    /* gap: 5px; */
+}

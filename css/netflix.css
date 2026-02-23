@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+}
+.logo>img{
+    height: 70px;
+    width: 100px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+   
+}
+section{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+     height: 80vh;
+}
+button{
+    background-color: red;
+    padding: 2px;
+    color: white;
+    border-radius: 2px;
+    border: none;
+}
+section p{
+    font-size: 15px;
+}
+.netflix{
+    background-image: url(https://i.pinimg.com/736x/19/8b/2f/198b2f01e73b905772279616eccc7c65.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+    .netmode{
+        background-color: rgba(0, 0, 0, 0.738);
+    }
+    section h3,p{
+        color: white;
+    }
+    input{
+       
+    }
+
+
+
+   
